@@ -1,0 +1,33 @@
+version: '3.6'
+
+services:
+  web-conference_dpr:
+    build: .
+    restart: always
+    ports:
+      - 80:3000
+    command: "npm start"
+    # depends_on:
+    #   - "dpr-api"
+  
+  
+      #graphql-engine:
+  #  image: hasura/graphql-engine:v1.0.0-beta.6
+  #  ports:
+  #  - "8080:8080"
+  #  restart: always
+  #  environment:
+  #    HASURA_GRAPHQL_DATABASE_URL: postgres://dpr:hN9GYs83T6DT@35.188.56.88:5432/dprdb
+  #    HASURA_GRAPHQL_ENABLE_CONSOLE: "true" # set to "false" to disable console
+  #    HASURA_GRAPHQL_ENABLED_LOG_TYPES: startup, http-log, webhook-log, websocket-log, query-log
+      ## uncomment next line to set an admin secret
+      # HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
+  api-conference_dpr:
+    build: 
+      context: ../HSEConference/HSEConference
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - 81:5000
+    # ports:
+      # - 82:443

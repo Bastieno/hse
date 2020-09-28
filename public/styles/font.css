@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'ibm_plex_sansregular';
+  src: url('../fonts/ibmplexsans-regular-webfont.woff2') format('woff2'),
+    url('../fonts/ibmplexsans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ibm_plex_sansmedium';
+  src: url('../fonts/ibmplexsans-medium-webfont.woff2') format('woff2'),
+    url('../fonts/ibmplexsans-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'ibm_plex_sansbold';
+  src: url('../fonts/ibmplexsans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/ibmplexsans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Bold';
+  src: url('../fonts/product_sans_bold.ttf') format('woff2'),
+    url('../fonts/product_sans_bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Product Sans Regular';
+  src: url('../fonts/product_sans_regular.woff2') format('woff2'),
+    url('../fonts/product_sans_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'balooregular';
+  src: url('../fonts/Baloo-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../fonts/AvenirNext-Regular.woff2') format('woff2'),
+    url('../fonts/AvenirNext-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('../fonts/times\ new\ roman.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('../fonts/times\ new\ roman\ italic.ttf') format('ttf');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('../fonts/times\ new\ roman\ bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Times New Roman';
+  src: url('../fonts/times\ new\ roman\ bold\ italic.ttf') format('ttf');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

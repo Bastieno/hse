@@ -1,0 +1,79 @@
+.RichEditor-root {
+  position: relative;
+  min-height: 360px;
+  border-radius: 4px;
+  border: 1px solid #979797;
+  color: #4a4a4a;
+  font-size: 2.2em;
+  line-height: 1.6;
+  font-family: 'ibm_plex_sansregular', sans-serif;
+}
+
+.RichEditor-editor {
+  cursor: text;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  font-family: 'ibm_plex_sansregular', sans-serif;
+  letter-spacing: 0.4px;
+  /* font-family: 'Times New Roman', serif; */
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.RichEditor-editor .public-DraftEditorPlaceholder-root,
+.RichEditor-editor .public-DraftEditor-content {
+  margin: 0 -1rem -1rem;
+  padding: 1rem;
+}
+
+.public-DraftEditorPlaceholder-root {
+  color: #9197a3;
+  position: absolute;
+  z-index: 0;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  min-height: 360px;
+}
+
+.RichEditor-hidePlaceholder .public-DraftEditorPlaceholder-root {
+  display: none;
+}
+
+.RichEditor-controls {
+  padding: 1rem;
+  border-bottom: 1px solid #979797;
+  user-select: none;
+}
+
+.RichEditor-styleButton {
+  margin-right: 1rem;
+  background: #ededed;
+  border: 1px solid #ccc;
+  padding: 0 0.8rem;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.RichEditor-activeButton {
+  background: #e5e5e5;
+  box-shadow: inset 0px 0px 5px #727171;
+  outline: none;
+}
+
+em.italic {
+  font-style: italic !important;
+}
+
+strong.bold {
+  font-weight: bold !important;
+}
+
+u.underline {
+  text-decoration: underline !important;
+}
+
+a.link {
+  color: #1890ff;
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="257" height="45" viewBox="0 0 257 45">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#252525" d="M2 0h253a2 2 0 0 1 2 2v41a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+        <path fill="#555" d="M220 6h29a2 2 0 0 1 2 2v29a2 2 0 0 1-2 2h-29a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z" opacity=".22"/>
+        <text fill="#494949" font-family="ProductSans-Bold, Product Sans" font-size="14" font-weight="bold" transform="translate(-1 -1)">
+            <tspan x="17" y="28">Enter Your Email Address</tspan>
+        </text>
+        <path fill="#666" d="M240.8 22.522l-3.861-4.324a.56.56 0 0 0-.854 0 .734.734 0 0 0 0 .955l2.832 3.171h-10.314c-.333 0-.603.303-.603.676 0 .373.27.676.603.676h10.314l-2.831 3.17a.734.734 0 0 0 0 .956.57.57 0 0 0 .426.198.57.57 0 0 0 .427-.198l3.862-4.324a.734.734 0 0 0 0-.956z"/>
+    </g>
+</svg>

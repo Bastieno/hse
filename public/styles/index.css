@@ -1,0 +1,238 @@
+html {
+    box-sizing: border-box;
+    font-size: 43.75%;
+    overflow-x: hidden;
+}
+
+@media (min-width: 321px) {
+    html {
+        font-size: 51.25%;
+    }
+}
+
+@media (min-width: 769px) {
+    html {
+        font-size: 59.375%;
+    }
+}
+
+@media (min-width: 2560px) {
+    html {
+        font-size: 72.5%;
+    }
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    color: #4a4a4a;
+    background-color: #fff;
+    font: normal 1rem/1.6 'ibm_plex_sansregular', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: 0;
+    line-height: inherit;
+}
+
+/* --- global styled for buttons --- */
+.btn {
+    display: inline-block;
+    padding: 1.3rem 3rem;
+    border-radius: 218px;
+    margin-right: 1.6rem;
+    transition: all 300ms ease;
+    font-family: 'ibm_plex_sansmedium', sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+    border-color: rgba(128, 128, 128, 0.4);
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.btn--white {
+    color: #4a90e2;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+.btn--white:hover {
+    border-color: #4a90e2;
+    background-color: transparent;
+}
+
+.btn--green {
+    color: #fff;
+    border: 2px solid #3dd598;
+    background-color: #3dd598;
+}
+
+.btn--green:hover {
+    color: #fff;
+    border-color: #31a879;
+    background-color: #31a879;
+}
+
+.btn--blue {
+    color: #fff;
+    border: 2px solid #55acee;
+    background-color: #55acee;
+}
+
+.btn--blue:hover {
+    color: #fff;
+    border-color: #287bbb;
+    background-color: #287bbb;
+}
+
+.btn--ash {
+    color: #fff;
+    border: 2px solid #c0c3cc;
+    background-color: #c0c3cc;
+}
+
+.btn--ash:hover {
+    color: #fff;
+    border-color: #6c707e;
+    background-color: #6c707e;
+}
+
+.btn--dark-green {
+    color: #fff;
+    border: 2px solid #52b9b8;
+    background-color: #52b9b8;
+}
+
+.btn--dark-green:hover {
+    color: #fff;
+    border-color: #1e8493;
+    background-color: #1e8493;
+}
+
+/* --- styles for different containers --- */
+.container-560 {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.container-940,
+.container-940--hide-scroll {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.container-940--hide-scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.container-940--hide-scroll {
+    -ms-overflow-style: none;
+}
+
+.container-1220 {
+    width: 100%;
+    max-width: 1220px;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+}
+
+.container-1360 {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+}
+
+.container-1440 {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+}
+
+.container-full {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 1225px) {
+    .container-full {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+/* --- styles fpr centering the fullscreen view of image on mobile (react-image-gallery npm package) --- */
+.image-gallery-content.fullscreen {
+    transform: translateY(50%) !important;
+}
+
+/* --- styles for overriding Ant Design Component --- */
+.ant-message-notice-content {
+    width: 90%;
+    max-width: 460px;
+    padding: 15px 20px !important;
+    text-align: left;
+}
+
+.ant-message-custom-content {
+    display: flex;
+    align-items: baseline;
+}
+
+.ant-message span {
+    font-family: 'ibm_plex_sansregular', sans-serif;
+    font-size: 1.6rem;
+    color: #000 !important;
+}
+
+.ant-alert {
+    font-family: 'ibm_plex_sansregular', sans-serif;
+    font-size: 1.5rem !important;
+    color: #000 !important;
+}
+
+.ant-table-body::-webkit-scrollbar {
+    display: none !important;
+}
+
+.ant-table-body {
+    -ms-overflow-style: none !important;
+}
